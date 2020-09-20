@@ -1,0 +1,45 @@
+.page{
+    width:  1000 px;
+    margin: auto;
+    font-size: 50 px;
+    background-color: lightgrey;
+}
+.infosphoto{
+    height: 800 px;
+    background-color: darkcyan;
+}
+.infos{
+    float : right;
+    padding-left:150 px ;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 400 px;
+    color: white;
+    padding-right:  5%; ;
+    font-size: larger;
+}
+.photo{
+    text-align: left;
+    margin-right: 4000 px;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
+h2 {
+    color: darkcyan;
+}
+.contact{
+
+}
+
+#header{
+    background-color: #81ecec;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 800 px;
+    }
+
