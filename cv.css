@@ -2,11 +2,11 @@
     width:  1000 px;
     margin: auto;
     font-size: 50 px;
-    background-color: lightgrey;
+    background-color: white;
 }
 .infosphoto{
     height: 800 px;
-    background-color: darkcyan;
+    background-color: rgb(109, 175, 199);
 }
 .infos{
     float : right;
@@ -24,22 +24,143 @@
     padding-left: 5%;
     padding-top: 1%;
     padding-bottom: 1%;
+
     
 }
+.photo1{
+
+position: absolute;bottom: 135px; 
+margin-left: 1%;
+
+    
+}
+.photo2{
+
+    position: absolute;bottom: 135px; 
+    margin-left: 1%;
+    
+        
+    }
+    
+.photo3{
+
+    position: absolute;bottom: 144px; 
+    margin-left: 1%;
+        
+            
+}
+        
+.photo4{
+
+    position: absolute;bottom: 5 em; 
+    margin-left: 1%;
+            
+                
+}
+            
 
 h2 {
-    color: darkcyan;
+    color: rgb(173, 205, 227);
+
+
+
+    
 }
+p{
+
+    font-family: cursive;
+}
+
 .contact{
+    text-align: center;
+    font-size: larger;
+}
+
+
+
+.competences{
+    font-size: larger;
+}
+
+.langues{
+    font-size: larger;
+}
+
+.Formation{
+    font-size: larger;
 
 }
 
-#header{
-    background-color: #81ecec;
+.Experiences{
+    font-size: larger;
+}
+
+.activites{
+    font-size: larger;
+}
+
+.Formulaire{
+    font-size: larger;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
     color: white;
     text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    height: 800 px;
-    }
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(109, 175, 199);;
+    border-radius: 4px;
+  }
+
+  input[type=mail] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(109, 175, 199);;
+    border-radius: 4px;
+  }
+  textarea {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(109, 175, 199);;
+    border-radius: 4px;
+  }
+
+  input[type=submit] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(109, 175, 199);;
+    border-radius: 4px;
+  }

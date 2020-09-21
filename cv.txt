@@ -11,24 +11,23 @@
         <div class="page">
             <div class="infosphoto">
                 <div class="infos">
-                    <br> <br> <br> <br>
                     <h1><strong>Mathilde Buono</strong></h1> 
                     <h3>ETUDIANTE EN ECOLE D'INGENIEURS</h3>
                     <h3>20 ans</h3>
                 </div>
                 <div class="photo">
-                    <img src="PhotoCV.png" alt="ma photo de cv" width="300" height="300">
+                    <img src="PhotoCV.png" alt="ma photo de cv">
                     
                 </div>
             </div>
 
-            
+            <div class="cotegauche">
                 <div class="contact">
                     <h2>Contact</h2>
                     <p>36 Rue Hector Gonsalphe Fontaine</p>
-                    <p>92600 Asnières-Sur-Seine</p> 
-                    <p>mathilde.buono@edu.ece.fr</p> 
-                    <p>+33 6 99 65 94 55</p>
+                    <p>92600 Asnières-Sur-Seine</p> <br>
+                    <p>mathilde.buono@edu.ece.fr</p> <br>
+                    <p>+33 6 99 65 94 55</p> <br>
                     <p>linkedin: Mathilde Buono</p>
 
                 </div>
@@ -63,10 +62,47 @@
                     </ul>
 
                 </div>
+            </div>
 
-                <div id = "footer">
-                    <p>Continuez vers la </p> <a href="CV2.html">page 2</a>
+            <div class="cotedroit">
+                <div class="formation">
+                    <h2>Formation</h2>
+                    <h4>ECE-PARIS - ECOLE D'INGENIEURS</h4>
+                    <p>1ère année du cycle ingénieur | 2017-2022</p>
+                    <h4>BANGOR UNIVERSITY</h4>
+                    <p>Electronic engineering, échange universitaire | Septembre-décembre 2019</p>
+                    <h4>INSTITUTION SAINTE GENEVIEVE</h4>
+                    <p>Titulaire du baccalauréat scientifique spécialité physique-chimie, mention bien | 2017</p>
+                    <h4>INITIATION PREMIER SECOURS</h4>
+
                 </div>
+                <div class="Expériencesprosetassos">
+                    <h2>Expériences professionnelles et Associatives</h2>
+                    <h4>ETUDIANTE VOLONTAIRE</h4>
+                    <p>Viva Tecnology |avril 2019</p>
+                    <p>Missions : accueillir et orienter les visiteurs</p>
+                    <h4>ASSISTANCE MARKETING</h4>
+                    <p>Midas France | Janvier 2019 - Février 2019</p>
+                    <p>Missions : Accompagnement des chefs de produits dans l'animation commerciale.</p>
+                    <h4>BENEVOLE</h4>
+                    <p>Les restaurant du coeur | 2019</p>
+                    <p>Distribution de repas aux personnes dans le besoin.</p>
+                    <h4>TUTRICE</h4>
+                    <p>2018-2019</p>
+                    <p>Aide aux devoirs d'un enfant de seconde en mathématiques et physique-chimie.</p>
+                </div>
+                <div class="activités">
+                    <h2>Activités et Centres d'intérêts</h2>
+                    <ul>
+                        <li>Sport : Tennis,Boxe, Foot</li>
+                        <li>Activités Culturelles : Lecture, Cinéma, Scoutisme</li>
+                        <li>Nouvelles technologies</li>
+                        <li>Goût pronomcé pour les voyages (Etats-Unis,Japon,Vietnam,Italie,Espagne,Angleterre).</li>
+                    </ul>
+        
+
+                </div>
+            </div>
 
         
         </div>

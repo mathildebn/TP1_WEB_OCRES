@@ -8,14 +8,14 @@
         <title>  CV Buono </title> 
     </head>
 <body>
-    <div id="header">
-        <a href="accueil.html">Accueil</a>
-        <a href="Formation.html">Formation</a>
-        <a href="Experiences.html">Expériences</a>
-        <a href="Competences.html">Compétences</a>
-        <a href="Activites.html">Centres d'intérets</a>
-        <a href="FAQ.html">FAQ</a>
-    </div>
+    <ul>
+        <li><a class="Accueil" href="accueil.html">Accueil</a></li>
+        <li><a href="Formation.html">Formation</a></li>
+        <li><a href="Experiences.html">Expériences</a></li>
+        <li><a href="Competences.html">Compétences</a></li>
+        <li><a href="Activites.html">Centres d'intérêts</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+      </ul>
     <div class="page">
         <div class="infosphoto">
             <div class="infos">
@@ -29,9 +29,25 @@
                 
             </div>
 
-            <h3>Pour toutes questions veuillez remplir le formulaire ci dessous</h3>
+        </div>
+
+            <div class="Formulaire">
+            <p>Pour toutes questions veuillez remplir le formulaire ci dessous</p>
+            <form>
+                Nom :   <br>
+                <input type = "text" name="firstName" placeholder="Nom"><br>
+                Adresse mail : <br>
+                <input type = "mail"name="mail" placeholder="user@gmail.com" required="true"><br>
+                Votre demande : <br>
+                <textarea name="Questions"placeholder="Questions"></textarea><br>
+                <input type="submit" value="Soumettre">
+            </form>
+            
+
+            </div>
+
             
 
     
       
-        </div>
+        
